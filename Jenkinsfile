@@ -62,7 +62,7 @@ node {
    */
 
    stage("Prod - Deploying Application"){
-       openshiftDeploy(namespace:'node-prod', deploymentConfig: 'node-backend-app')
+       openshiftDeploy(namespace:'node-prod-lohit', deploymentConfig: 'node-backend-app')
    }
 
 
